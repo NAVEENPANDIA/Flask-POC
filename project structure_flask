@@ -1,0 +1,32 @@
+backened
+├── dto
+│   ├── __init__.py
+│   └── user_schema.py
+├── __init__.py
+├── main.py
+├── routes
+│   ├── get_users.py
+│   ├── get_user_uid.py
+│   ├── __init__.py
+│   ├── login.py
+│   └── register.py
+├── services
+│   ├── decorators.py
+│   ├── __init__.py
+│   ├── service_get_all_users.py
+│   ├── service_login.py
+│   ├── service_profile.py
+│   └── service_register.py
+├── sql
+│   ├── connection.py
+│   ├── __init__.py
+│   ├── query_functions.py
+│   └── query.py
+├── sqlalchemy_db.py
+├── tests
+│   ├── __init__.py
+│   ├── response.json
+│   └── test_users.py
+└── validator
+    ├── __init__.py
+    └── validation.py
